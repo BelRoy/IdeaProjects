@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="id_proj">Idea Projects</string>
+    <string name="mail">Enter E-mail</string>
+    <string name="password">Enter password</string>
+    <string name="first_time">Don\'t have an account?</string>
+    <string name="register">Register</string>
+</resources>
