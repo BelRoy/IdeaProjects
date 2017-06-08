@@ -16,4 +16,6 @@
     <string name="first_time">Don\'t have an account?</string>
     <string name="register">Register</string>
     <string name="name">Enter your name</string>
+    <string name="signin">Already registered?</string>
+    <string name="sign__in">Sign in...</string>
 </resources>

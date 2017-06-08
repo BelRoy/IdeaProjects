@@ -24,7 +24,7 @@ public class StartDisplay extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(StartDisplay.this, Register.class));
-                finish();
+
             }
         });
 
