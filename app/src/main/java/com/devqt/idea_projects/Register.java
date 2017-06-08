@@ -1,10 +1,11 @@
 package com.devqt.idea_projects;
 
 
-import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
@@ -17,7 +18,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class Register extends Activity implements View.OnClickListener {
+public class Register extends AppCompatActivity implements View.OnClickListener {
 
     private ImageView check_but;
 
@@ -29,7 +30,7 @@ public class Register extends Activity implements View.OnClickListener {
     private FirebaseAuth authefication;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
@@ -53,20 +54,20 @@ public class Register extends Activity implements View.OnClickListener {
     }
 
 
-    private void registerUser(){
+    private void registerUser() {
 
         String mail = mail_field.getText().toString().trim();
 
         String password = password_field.getText().toString().trim();
 
-        if (TextUtils.isEmpty(mail)){
+        if (TextUtils.isEmpty(mail)) {
 
             Toast.makeText(this, "Please enter Your e-mail", Toast.LENGTH_SHORT).show();
             return;
 
         }
 
-        if (TextUtils.isEmpty(password)){
+        if (TextUtils.isEmpty(password)) {
 
             Toast.makeText(this, "Please enter Your password", Toast.LENGTH_SHORT).show();
             return;
@@ -79,11 +80,11 @@ public class Register extends Activity implements View.OnClickListener {
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()){
+                        if (task.isSuccessful()) {
 
                             Toast.makeText(Register.this, "Registered Successfull", Toast.LENGTH_SHORT).show();
-                        }
-                        else{
+
+                        } else {
                             Toast.makeText(Register.this, "Please try again", Toast.LENGTH_SHORT).show();
                         }
                     }
@@ -94,11 +95,19 @@ public class Register extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
 
-        if (view == check_but){
+        if (view == check_but) {
             registerUser();
         }
 
-        if (view == sign_in_check);
+        if (view == sign_in_check) {
 
+
+            finish();
+         startActivity(new Intent(this, StartDisplay.class));
+
+                }
+
+
+        }
     }
-}
+
