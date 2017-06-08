@@ -22,7 +22,8 @@
         </activity>
         <activity
             android:name=".NavigationMenu"
-            android:label="@string/title_activity_navigation_menu">
+            android:label="@string/title_activity_navigation_menu"
+            android:screenOrientation="portrait">
         </activity>
         <activity android:name=".Register" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>

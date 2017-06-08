@@ -61,11 +61,11 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devqt/idea_projects/Register.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="111" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="111" />
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2288#2803#0" expanded="true" />
-                <element signature="e#2802#2803#0" expanded="true" />
+                <element signature="e#2259#2774#0" expanded="true" />
+                <element signature="e#2773#2774#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +74,8 @@
       <file leaf-file-name="StartDisplay.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devqt/idea_projects/StartDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66360503">
-              <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.804822">
+              <caret line="99" column="58" selection-start-line="99" selection-start-column="58" selection-end-line="99" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2250#2841#0" expanded="true" />
@@ -87,13 +87,15 @@
       </file>
       <file leaf-file-name="activity_splash.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
-              <folding />
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.327273">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding>
+                <element signature="e#4820#4838#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
@@ -101,9 +103,11 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-              <folding />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding>
+                <element signature="e#1045#1085#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1927,9 +1931,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-v21/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-w820dp/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/devqt/idea_projects/Register.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/devqt/idea_projects/Register.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/devqt/idea_projects/StartDisplay.java" />
       </list>
     </option>
@@ -2528,7 +2532,9 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#4820#4838#0" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -2556,8 +2562,8 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2288#2803#0" expanded="true" />
-            <element signature="e#2802#2803#0" expanded="true" />
+            <element signature="e#2259#2774#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2589,7 +2595,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#1045#1085#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2605,7 +2613,9 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#4820#4838#0" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -2633,8 +2643,8 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2288#2803#0" expanded="true" />
-            <element signature="e#2802#2803#0" expanded="true" />
+            <element signature="e#2259#2774#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2666,7 +2676,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1045#1085#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2771,41 +2783,45 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devqt/idea_projects/Register.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="111" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="111" />
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2288#2803#0" expanded="true" />
-            <element signature="e#2802#2803#0" expanded="true" />
+            <element signature="e#1045#1085#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding />
+        <state vertical-scroll-proportion="-4.327273">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding>
+            <element signature="e#4820#4838#0" expanded="true" />
+          </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devqt/idea_projects/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2259#2774#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/devqt/idea_projects/StartDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66360503">
-          <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.804822">
+          <caret line="99" column="58" selection-start-line="99" selection-start-column="58" selection-end-line="99" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2250#2841#0" expanded="true" />

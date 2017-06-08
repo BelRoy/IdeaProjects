@@ -96,9 +96,9 @@ public class StartDisplay extends Activity implements View.OnClickListener {
         }
 
         if (view == reg) {
+            Intent registerIntent = new Intent(StartDisplay.this, Register.class);
+            StartDisplay.this.startActivity(registerIntent);
 
-            startActivity(new Intent(this, Register.class));
-            finish();
         }
     }
 }
