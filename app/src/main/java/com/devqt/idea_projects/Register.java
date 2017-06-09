@@ -1,6 +1,5 @@
 package com.devqt.idea_projects;
 
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -36,57 +35,56 @@ public class Register extends Activity implements View.OnClickListener {
 
         authefication = FirebaseAuth.getInstance();
 
-        progress = new ProgressDialog(this);
+            progress = new ProgressDialog(this);
 
-        check_but = (ImageView) findViewById(R.id.check);
+            check_but = (ImageView) findViewById(R.id.check);
+            mail_field = (EditText) findViewById(R.id.mail);
+            password_field = (EditText) findViewById(R.id.password);
+            sign_in_check = (TextView) findViewById(R.id.sign_in);
 
-        mail_field = (EditText) findViewById(R.id.mail);
-        password_field = (EditText) findViewById(R.id.password);
-        sign_in_check = (TextView) findViewById(R.id.sign_in);
+            check_but.setOnClickListener(this);
+            mail_field.setOnClickListener(this);
+            password_field.setOnClickListener(this);
+            sign_in_check.setOnClickListener(this);
 
+            findViewById(R.id.sign_in).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(Register.this, StartDisplay.class));
+                    finish();
+                }
+            });
 
-        check_but.setOnClickListener(this);
-
-        mail_field.setOnClickListener(this);
-        password_field.setOnClickListener(this);
-        sign_in_check.setOnClickListener(this);
-
-    }
-
+        }
 
     private void registerUser() {
 
         String mail = mail_field.getText().toString().trim();
-
         String password = password_field.getText().toString().trim();
-
         if (TextUtils.isEmpty(mail)) {
-
             Toast.makeText(this, "Please enter Your e-mail", Toast.LENGTH_SHORT).show();
             return;
-
         }
-
         if (TextUtils.isEmpty(password)) {
-
             Toast.makeText(this, "Please enter Your password", Toast.LENGTH_SHORT).show();
             return;
         }
 
         progress.setMessage("Registering User");
         progress.show();
-
         authefication.createUserWithEmailAndPassword(mail, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
 
-                            Toast.makeText(Register.this, "Registered Successfull", Toast.LENGTH_SHORT).show();
+                        if(task.isSuccessful()){
+                            finish();
+                            startActivity(new Intent(getApplicationContext(), NavigationMenu.class));
+                        }else{
 
-                        } else {
-                            Toast.makeText(Register.this, "Please try again", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Register.this,"Registration Error",Toast.LENGTH_LONG).show();
                         }
+                        progress.dismiss();
                     }
                 });
 
@@ -101,11 +99,7 @@ public class Register extends Activity implements View.OnClickListener {
 
         if (view == sign_in_check) {
 
-
-            finish();
-         startActivity(new Intent(this, StartDisplay.class));
-
-                }
+        }
 
 
         }

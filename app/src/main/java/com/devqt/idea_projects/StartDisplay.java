@@ -42,11 +42,14 @@ public class StartDisplay extends Activity implements View.OnClickListener {
         reg.setOnClickListener(this);
         progress = new ProgressDialog(this);
         authefication = FirebaseAuth.getInstance();
-        if (authefication.getCurrentUser() != null){
-            finish();
-            startActivity(new Intent(getApplicationContext(), NavigationMenu.class));
-        }
 
+        findViewById(R.id.register).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StartDisplay.this, Register.class));
+                finish();
+            }
+        });
     }
 
     private void loginUser() {
@@ -96,8 +99,7 @@ public class StartDisplay extends Activity implements View.OnClickListener {
         }
 
         if (view == reg) {
-            Intent registerIntent = new Intent(StartDisplay.this, Register.class);
-            StartDisplay.this.startActivity(registerIntent);
+
 
         }
     }

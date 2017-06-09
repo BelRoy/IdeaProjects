@@ -13,14 +13,6 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:src="@drawable/center_m"
-        android:layout_above="@+id/imageView3"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageView3"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
